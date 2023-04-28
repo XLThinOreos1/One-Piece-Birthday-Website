@@ -1,46 +1,51 @@
 body {
-    overflow: hidden;
-    background-image: url("/images/Site-background.webp");
     display: flex;
+    flex-direction: column;
+    align-items: center;
     flex-wrap: wrap;
+    overflow:auto;
+    background-image: url("/images/Site-background.webp");
 }
 
 .sitetext {
-    font-size: x-large;
+    font-size: 1rem;
+}
+
+.yess{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .textbox {
     background-color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     border: 2px solid black;
     border-radius: 10px;
     text-align: center;
-    font: x-large "Comic Sans MS";
+    font: 0.9rem "Comic Sans MS";
     text-align: center;
-    padding: 5rem;
+    padding: 2.5rem;
+    margin: 5rem;
 }
 
 h1 {
-    position: relative;
     top: -20%;
 }
 
 .oplogo {
-    display: block;
-    margin: 75px auto 0 auto;
+    width: 75vw;
+    max-width: 440px;
+    margin: 2.5rem 0;
 }
 
-.tada {
-    display: block;
-    margin: 6em 0 0 7.5rem;
+.img{
+    max-height: 15rem;
+    height: 40vw;
 }
 
 .tada2 {
-    display: block;
-    margin: -18.5em 0 0 91rem;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 }
