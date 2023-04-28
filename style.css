@@ -1,0 +1,46 @@
+body {
+    overflow: hidden;
+    background-image: url("/images/Site-background.webp");
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sitetext {
+    font-size: x-large;
+}
+
+.textbox {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font: x-large "Comic Sans MS";
+    text-align: center;
+    padding: 5rem;
+}
+
+h1 {
+    position: relative;
+    top: -20%;
+}
+
+.oplogo {
+    display: block;
+    margin: 75px auto 0 auto;
+}
+
+.tada {
+    display: block;
+    margin: 6em 0 0 7.5rem;
+}
+
+.tada2 {
+    display: block;
+    margin: -18.5em 0 0 91rem;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
