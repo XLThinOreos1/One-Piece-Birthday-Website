@@ -1,11 +1,11 @@
 let BirthdayBoy;
 let savedText = [];
 let myDate = new Date();
-// let myDate = new Date(2024, 1, 29);
+// let myDate = new Date(2023, 4, 5); // Det här är för att testa olika datum
 
 const text = document.querySelector(".sitetext")
 
-// jag skrev inte det här
+// jag skrev inte rawFile delen
 let allText;
 var rawFile = new XMLHttpRequest();
 rawFile.open("GET", "birthdaylist.txt", false);

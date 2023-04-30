@@ -8,10 +8,10 @@ body {
 }
 
 .sitetext {
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
-.yess{
+.wrap{
     display:flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -28,6 +28,7 @@ body {
     text-align: center;
     padding: 2.5rem;
     margin: 5rem;
+    max-width: 50vw;
 }
 
 h1 {
@@ -45,7 +46,7 @@ h1 {
     height: 40vw;
 }
 
-.tada2 {
+.tadaR {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 }
