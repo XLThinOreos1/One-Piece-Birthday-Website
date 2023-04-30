@@ -4,7 +4,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     overflow:auto;
-    background-image: url("/images/Site-background.webp");
+    background-image: url("./images/Site-background.webp");
 }
 
 .sitetext {
